@@ -1,6 +1,6 @@
-[InternetShortcut]
-URL=https://github.com/Thirisha-s/DISASTER-DAMAGE-ASSESSMENT-AND-RESPONSE-WEB-PLATFORM-ROLE-BASED-ACCESS-/blob/main/apps.py
-IDList=
-HotKey=0
-IconFile=C:\Users\SEC\AppData\Local\Mozilla\Firefox\Profiles\p6a3d49b.default-release\shortcutCache\Vp0X3fUc8dkJR4MCSzLoQlsHZHH76I6FrhlOQbG824E=.ico
-IconIndex=0
+from django.apps import AppConfig
+
+
+class AnalysesConfig(AppConfig):
+    default_auto_field = 'django.db.models.BigAutoField'
+    name = 'analysis'
