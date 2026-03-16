@@ -1,6 +1,17 @@
-[InternetShortcut]
-URL=https://github.com/Thirisha-s/DISASTER-DAMAGE-ASSESSMENT-AND-RESPONSE-WEB-PLATFORM-ROLE-BASED-ACCESS-/blob/main/index.js
-IDList=
-HotKey=0
-IconFile=C:\Users\SEC\AppData\Local\Mozilla\Firefox\Profiles\p6a3d49b.default-release\shortcutCache\mH3OTVZF6XjJgd0LpUUlxlPRKHcNSl7bvU87hmGIqYo=.ico
-IconIndex=0
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import './index.css';
+import App from './App';
+import reportWebVitals from './reportWebVitals';
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
+
+// If you want to start measuring performance in your app, pass a function
+// to log results (for example: reportWebVitals(console.log))
+// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+reportWebVitals();
