@@ -1,6 +1,24 @@
-[InternetShortcut]
-URL=https://github.com/Thirisha-s/DISASTER-DAMAGE-ASSESSMENT-AND-RESPONSE-WEB-PLATFORM-ROLE-BASED-ACCESS-/blob/main/index.css
-IDList=
-HotKey=0
-IconFile=C:\Users\SEC\AppData\Local\Mozilla\Firefox\Profiles\p6a3d49b.default-release\shortcutCache\pYnLHPsc7pFZI6ujQ5cyKSKkc9QkbBvEA58c3ZDV1f4=.ico
-IconIndex=0
+
+/* index.css */
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f9f9f9;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  width: 100%;
+}
